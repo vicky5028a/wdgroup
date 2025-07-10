@@ -4,7 +4,7 @@
 		<title>frenchbean</title>
 		<style type="text/css">
 			body{
-				width:100%;
+				width:100vh;
 				margin:0px;
 				background:url('d.jpg') no-repeat fixed;
 				background-position:center;
@@ -19,6 +19,7 @@
 					width:1520px;
 					height:100px;
 					background:#3b5145;
+
 			}
 					
 				#logoarea{
@@ -241,46 +242,36 @@
 							}
 
 
-			#darea{
+			.darea{
 					width:1520px;
 					height:300px;
 					background:transparent;
 					float:left;
 			}
-				#d1area{
+				.d1area{
 						width:450px;
 						height:300px;
-						background:url('butterpaneer.jpg') no-repeat scroll;
-						background-position:center;
-						background-size:cover;
 						float:left;
+						overflow:hidden;
 						margin:0px 25px 0px 25px;
 				}
-				#d2area{
-						width:450px;
-						height:300px;
-						background:url('cake.webp') no-repeat scroll;
-						background-position:center;
-						background-size:cover;	
-						float:left;
-						margin:0px 25px 0px 25px;
-				}
-				#d3area{
-						width:450px;
-						height:300px;
-						background:url('momo.jpg') no-repeat scroll;
-						background-position:center;
-						background-size:cover;
-						float:left;
-						margin:0px 25px 0px 25px;
-					}
-			#boxarea{
+					
+					.d1area img{
+						width:100%;
+						height:100%;
+						transition:transform 4s;
+						}
+					.d1area img:hover{
+							transform:rotate(10deg) scale(1.2,1.2);
+							}
+				
+			.boxarea{
 					width:1520px;
 					height:50px;
 					background:transparent;
 					float:left;
 			}
-				#b1area{
+				.b1area{
 						width:450px;
 						height:50px;
 						background:#3b5145;
@@ -288,7 +279,7 @@
 						margin:0px 25px 0px 25px;
 
 				}				
-				#b1area h2{
+				.b1area h2{
 						list-style:none;
 						margin:0px;
 						padding:0px;
@@ -296,7 +287,7 @@
 
 					}
 
-				#b1area h2 a:link,#b1area h2 a:visited{
+				.b1area h2 a:link,.b1area h2 a:visited{
 										color:#F9AF06;
 										text-align:center;
 										text-decoration:none;
@@ -306,205 +297,16 @@
 										display:block;
 
 					}
-				#b1area h2 a:hover{
+				.b1area h2 a:hover{
 							color:#3b5145;
 							background:#F9AF06;
 							}
-					
-				#b2area{
-						width:450px;
-						height:50px;
-						background:#3b5145;
-						float:left;
-						margin:0px 25px 0px 25px;
-
-				}				
-				#b2area h2{
-						list-style:none;
-						margin:0px;
-						padding:0px;
-
-
-					}
-
-				#b2area h2 a:link,#b2area h2 a:visited{
-										color:#F9AF06;
-										text-align:center;
-										text-decoration:none;
-										background:#3b5145;
-										padding:10px 25px;
-										margin:0px;
-										display:block;
-
-					}
-				#b2area h2 a:hover{
+							#b3area h2 a:hover{
 							color:#3b5145;
 							background:#F9AF06;
 							}
-					
-				#b3area{
-						width:450px;
-						height:50px;
-						background:#3b5145;
-						float:left;
-						margin:0px 25px 0px 25px;
-
-					}				
-				#b3area h2{
-						list-style:none;
-						margin:0px;
-						padding:0px;
-
-
-					}
-
-				#b3area h2 a:link,#b3area h2 a:visited{
-										color:#F9AF06;
-										text-align:center;
-										text-decoration:none;
-										background:#3b5145;
-										padding:10px 25px;
-										margin:0px;
-										display:block;
-
-					}
-				#b3area h2 a:hover{
-							color:#3b5145;
-							background:#F9AF06;
-							}
-				#dmarea{
-					width:1520px;
-					height:280px;
-					background:transparent;
-					padding:20px 0px;
-					float:left;
-					}
-				#dm1area{
-						width:450px;
-						height:300px;
-						background:url('pizza.jpg') no-repeat scroll;
-						background-position:center;
-						background-size:cover;
-						float:left;
-						margin:0px 25px 0px 25px;
-				}
-				#dm2area{
-						width:450px;
-						height:300px;
-						background:url('hotchoco.webp') no-repeat scroll;
-						background-position:center;
-						background-size:cover;	
-						float:left;
-						margin:0px 25px 0px 25px;
-				}
-				#dm3area{
-						width:450px;
-						height:300px;
-						background:url('chilli.webp') no-repeat scroll;
-						background-position:center;
-						background-size:cover;
-						float:left;
-						margin:0px 25px 0px 25px;
-					}
-			#boxmarea{
-					width:1520px;
-					height:50px;
-					background:transparent;
-					float:left;
-			}
-				#bm1area{
-						width:450px;
-						height:50px;
-						background:#3b5145;
-						float:left;
-						margin:0px 25px 0px 25px;
-
-				}				
-				#bm1area h2{
-						list-style:none;
-						margin:0px;
-						padding:0px;
-
-
-					}
-
-				#bm1area h2 a:link,#bm1area h2 a:visited{
-										color:#F9AF06;
-										text-align:center;
-										text-decoration:none;
-										background:#3b5145;
-										padding:10px 25px;
-										margin:0px;
-										display:block;
-
-					}
-				#bm1area h2 a:hover{
-							color:#3b5145;
-							background:#F9AF06;
-							}
-					
-				#bm2area{
-						width:450px;
-						height:50px;
-						background:#3b5145;
-						float:left;
-						margin:0px 25px 0px 25px;
-
-				}				
-				#bm2area h2{
-						list-style:none;
-						margin:0px;
-						padding:0px;
-
-
-					}
-
-				#bm2area h2 a:link,#bm2area h2 a:visited{
-										color:#F9AF06;
-										text-align:center;
-										text-decoration:none;
-										background:#3b5145;
-										padding:10px 25px;
-										margin:0px;
-										display:block;
-
-					}
-				#bm2area h2 a:hover{
-							color:#3b5145;
-							background:#F9AF06;
-							}
-					
-				#bm3area{
-						width:450px;
-						height:50px;
-						background:#3b5145;
-						float:left;
-						margin:0px 25px 0px 25px;
-
-					}				
-				#bm3area h2{
-						list-style:none;
-						margin:0px;
-						padding:0px;
-
-
-					}
-
-				#bm3area h2 a:link,#bm3area h2 a:visited{
-										color:#F9AF06;
-										text-align:center;
-										text-decoration:none;
-										background:#3b5145;
-										padding:10px 25px;
-										margin:0px;
-										display:block;
-
-					}
-				#bm3area h2 a:hover{
-							color:#3b5145;
-							background:#F9AF06;
-							}
-
+		
+		
 			#stararea{
 					width:1520px;
 					height:400px;
@@ -639,6 +441,16 @@
 							color:#3b5145;
 							background:#F9AF06;
 							}
+			#frencharea{
+					width:1520px;
+					height:200px;
+					background:#3b5145;
+					float:left;
+					
+					
+					}
+
+
 
 				
 
@@ -660,8 +472,8 @@
 						list-style:none;
 						margin:0px;
 						padding:20px 130px;
-						text-size:bold;
 						text-align:left;
+						text-size:bold;
 						letter-spacing:1PX;
 
 					}
@@ -868,41 +680,49 @@
 			<div id="marea">
 					<h2><a href="#">MENU</a></h2>
 			</div>
-			<div id="darea">
-				<div id="d1area">
+			<div class="darea">
+				<div class="d1area">
+					<img src="butterpaneer.jpg"/>
+
 				</div>
-				<div  id="d2area">
+				<div  class="d1area">
+					<img src="cake.webp"/>
+
 				</div>
-				<div  id="d3area">
+				<div  class="d1area">
+					<img src="momo.jpg"/>
 				</div>
 			</div>
-			<div id="boxarea">
-				<div id="b1area">
+			<div class="boxarea">
+				<div class="b1area">
 					<h2><a href="#">BUTTER PANNER MASHALA</a></h2>
 				</div>
-				<div  id="b2area">
+				<div  class="b1area">
 					<h2><a href="#">CHOCO CAKE</a></h2>
 				</div>
-				<div  id="b3area">
+				<div  class="b1area">
 					<h2><a href="#">STEAMED MOMO</a></h2>
 				</div>
 			</div>
-			<div id="dmarea">
-				<div id="dm1area">
+			<div class="darea">
+				<div class="d1area">
+					<img src="pizza.jpg"/>
 				</div>
-				<div  id="dm2area">
+				<div  class="d1area">
+					<img src="hotchoco.webp"/>
 				</div>
-				<div  id="dm3area">
+				<div  class="d1area">
+					<img src="chilli.webp"/>
 				</div>
 			</div>
-			<div id="boxmarea">
-				<div id="bm1area">
+			<div class="boxarea">
+				<div class="b1area">
 					<h2><a href="#">PIZZA PINO</a></h2>
 				</div>
-				<div  id="bm2area">
+				<div  class="b1area">
 					<h2><a href="#">HOT CHOCLATE </a></h2>
 				</div>
-				<div  id="bm3area">
+				<div class="b1area">
 					<h2><a href="#">CHICKEN CHILLI</a></h2>
 				</div>
 			</div>
@@ -964,17 +784,20 @@
 						</table>
 				</div>
 			</div>
+			<div id="frencharea">
+				
+			</div>
 			<div id="footerarea">
 				<div id="f1area">
 						<h2>WE ARE ON</h2>
 						<hr color="#F9AF06" width="380px">
 				<ul>
-					<li><a href="https://www.instagram.com/bean_french/">Instagram<img src="insta.png" width="25px" height="25px"/></a></li>
-					<li><a href="https://www.facebook.com/FrenchBeanRestro/">Facebook<img src="facebook.png" width="25px" height="25px"/></a></li>
-					<li><a href="https://www.swiggy.com/city/ranchi/hazaribagh-order-online">Swiggy<img src="swiggy.png" width="25px" height="25px"/></a></li>	
-					<li><a href="https://www.zomato.com/hazaribagh">Zomato<img src="zomato.png" width="25px" height="25px"/></a></li>	
-					<li><a href="https://twitter.com/">Twitter<img src="twitter.png" width="25px" height="25px"/></a></li>
-					</ul>
+					<li><a href="https://www.instagram.com/bean_french/"><img src="insta.png" width="25px" height="25px"/>Instagram</a></li>
+					<li><a href="https://www.facebook.com/FrenchBeanRestro/"><img src="facebook.png" width="25px" height="25px"/>Facebook</a></li>	
+					<li><a href="https://twitter.com/"><img src="twitter.png" width="25px" height="25px"/>Twitter</a></li>
+					<li><a href="https://www.swiggy.com/city/ranchi/hazaribagh-order-online"><img src="swiggy.png" width="25px" height="25px"/>Swiggy</a></li>	
+					<li><a href="https://www.zomato.com/hazaribagh"><img src="zomato.png" width="25px" height="25px"/>Zomato</a></li>
+				</ul>
 				</div>
 
 				<div id="f2area">
@@ -1011,11 +834,7 @@
  					style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
 				</div>
 				<div id="paymentarea">
-				<h2> Secured Payment with:<br><img src="paytem.webp" width="100px" height="100px"/>&nbsp;&nbsp;
-					<img src="paypal.webp" width="100px" height="100px"/>&nbsp;	
-					&nbsp;<img src="gpay.webp" width="100px" height="100px"/>&nbsp;														
-					<img src="phonepe.svg" width="150px" height="100px"/></h2>	
-					
+				<h2> Secured Payment with:<br><img src="paytem.webp" width="100px" height="100px"/>&nbsp;&nbsp;													<img src="paypal.webp" width="100px" height="100px"/>&nbsp;																	&nbsp;<img src="gpay.webp" width="100px" height="100px"/>&nbsp;															<img src="phonepe.svg" width="150px" height="100px"/>&nbsp;																	</h2>	
 				</div>
 
 			
